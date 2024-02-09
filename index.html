@@ -10,9 +10,10 @@
 <body>
     <script>
         console.log(location.href);
+        url = location.href;
         myId = "?tag=joshaf06-20";
 
-        Domain = location.href.replace("iiamazon", "amazon");
+        Domain = url.replace("iiamazon", "amazon");
         Domain = Domain += myId;
 
         console.log(Domain);
